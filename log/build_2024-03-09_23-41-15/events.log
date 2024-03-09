@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.000169] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000226] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.056655] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.057532] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.057573] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/albertlor/Workspaces/ros2_ws/build/my_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/albertlor/Workspaces/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'albertlor'), ('LC_TIME', 'en_SG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/albertlor'), ('OLDPWD', '/home/albertlor/Workspaces/ros2_ws/src/my_cpp_pkg/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_SG.UTF-8'), ('MANAGERPID', '1490'), ('SYSTEMD_EXEC_PID', '2146'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '83040'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'albertlor'), ('JOURNAL_STREAM', '8:29529'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'albertlor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/albertlor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/albert:@/tmp/.ICE-unix/1877,unix/albert:/tmp/.ICE-unix/1877'), ('INVOCATION_ID', '9a7f7f0bfeee4b26ab0cef324423c153'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_SG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_SG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_SG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:2cd98421-8406-4289-8cfb-ae3bcb91cd2f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_SG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_SG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/albertlor/Workspaces/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_SG.UTF-8'), ('LC_PAPER', 'en_SG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098475] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099421] (-) TimerEvent: {}
+[0.199806] (-) TimerEvent: {}
+[0.279561] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299956] (-) TimerEvent: {}
+[0.338480] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.341722] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.350192] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.366330] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.385023] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400077] (-) TimerEvent: {}
+[0.455285] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.457407] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500212] (-) TimerEvent: {}
+[0.579264] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600278] (-) TimerEvent: {}
+[0.700562] (-) TimerEvent: {}
+[0.787455] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[0.800670] (-) TimerEvent: {}
+[0.900935] (-) TimerEvent: {}
+[0.941787] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.001066] (-) TimerEvent: {}
+[1.014830] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.014997] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.015067] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.015444] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.016387] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.016488] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.016752] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.018078] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.031813] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.033371] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/albertlor/Workspaces/ros2_ws/build/my_cpp_pkg\n'}
+[1.057345] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[1.065649] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o\x1b[0m\n'}
+[1.073134] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target cpp_node\n'}
+[1.101207] (-) TimerEvent: {}
+[1.201510] (-) TimerEvent: {}
+[1.301801] (-) TimerEvent: {}
+[1.402124] (-) TimerEvent: {}
+[1.502490] (-) TimerEvent: {}
+[1.602773] (-) TimerEvent: {}
+[1.703104] (-) TimerEvent: {}
+[1.803441] (-) TimerEvent: {}
+[1.903767] (-) TimerEvent: {}
+[2.004089] (-) TimerEvent: {}
+[2.104401] (-) TimerEvent: {}
+[2.204779] (-) TimerEvent: {}
+[2.305114] (-) TimerEvent: {}
+[2.405440] (-) TimerEvent: {}
+[2.505769] (-) TimerEvent: {}
+[2.606104] (-) TimerEvent: {}
+[2.706438] (-) TimerEvent: {}
+[2.806781] (-) TimerEvent: {}
+[2.907122] (-) TimerEvent: {}
+[3.007433] (-) TimerEvent: {}
+[3.107760] (-) TimerEvent: {}
+[3.208090] (-) TimerEvent: {}
+[3.308438] (-) TimerEvent: {}
+[3.408766] (-) TimerEvent: {}
+[3.509090] (-) TimerEvent: {}
+[3.609423] (-) TimerEvent: {}
+[3.709757] (-) TimerEvent: {}
+[3.810075] (-) TimerEvent: {}
+[3.910401] (-) TimerEvent: {}
+[4.010718] (-) TimerEvent: {}
+[4.111031] (-) TimerEvent: {}
+[4.211345] (-) TimerEvent: {}
+[4.311653] (-) TimerEvent: {}
+[4.411964] (-) TimerEvent: {}
+[4.512259] (-) TimerEvent: {}
+[4.612564] (-) TimerEvent: {}
+[4.712870] (-) TimerEvent: {}
+[4.813172] (-) TimerEvent: {}
+[4.913474] (-) TimerEvent: {}
+[5.013751] (-) TimerEvent: {}
+[5.114110] (-) TimerEvent: {}
+[5.214427] (-) TimerEvent: {}
+[5.314769] (-) TimerEvent: {}
+[5.415120] (-) TimerEvent: {}
+[5.426258] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_news_station\x1b[0m\n'}
+[5.515278] (-) TimerEvent: {}
+[5.615612] (-) TimerEvent: {}
+[5.668394] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target robot_news_station\n'}
+[5.678469] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[5.702186] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[5.709789] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/albertlor/Workspaces/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/albertlor/Workspaces/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'albertlor'), ('LC_TIME', 'en_SG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/albertlor'), ('OLDPWD', '/home/albertlor/Workspaces/ros2_ws/src/my_cpp_pkg/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_SG.UTF-8'), ('MANAGERPID', '1490'), ('SYSTEMD_EXEC_PID', '2146'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '83040'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'albertlor'), ('JOURNAL_STREAM', '8:29529'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'albertlor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/albertlor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/albert:@/tmp/.ICE-unix/1877,unix/albert:/tmp/.ICE-unix/1877'), ('INVOCATION_ID', '9a7f7f0bfeee4b26ab0cef324423c153'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_SG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_SG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_SG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:2cd98421-8406-4289-8cfb-ae3bcb91cd2f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_SG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_SG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/albertlor/Workspaces/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_SG.UTF-8'), ('LC_PAPER', 'en_SG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.715735] (-) TimerEvent: {}
+[5.717336] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.717516] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[5.717636] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[5.718893] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""\n'}
+[5.719030] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[5.719165] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[5.719277] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[5.719352] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[5.719457] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[5.719552] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[5.719623] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[5.719735] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[5.719867] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[5.719942] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[5.720006] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[5.720069] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[5.720130] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[5.720208] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[5.720274] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/albertlor/Workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[5.721776] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[5.816045] (-) TimerEvent: {}
+[5.885065] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[5.885747] (-) EventReactorShutdown: {}

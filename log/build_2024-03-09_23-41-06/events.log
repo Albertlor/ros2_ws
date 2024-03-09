@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000116] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000150] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.079039] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.079363] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[0.079906] (-) EventReactorShutdown: {}
